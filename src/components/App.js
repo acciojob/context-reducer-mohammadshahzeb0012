@@ -92,7 +92,7 @@ const App = () => {
       <Input addItem={addItem} />
       <List items={items} removeItem={removeItem} />
       <button id="clear-list" onClick={() => setItems([])}>Clear list</button>
-    </div>
+    </div> //hii
   );
 };
 
